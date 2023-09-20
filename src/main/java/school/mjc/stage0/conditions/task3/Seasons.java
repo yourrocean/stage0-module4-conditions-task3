@@ -31,10 +31,5 @@ public class Seasons {
         System.out.println(season);
     }
 
-    public static void main(String[] args) {
-        Seasons seasons = new Seasons();
-        seasons.tellTheSeasonByMonthNumber(6);   // Example: Prints "Summer"
-        seasons.tellTheSeasonByMonthNumber(13);  // Example: Prints "Wrong number!"
-    }
 }
 
